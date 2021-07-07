@@ -47,10 +47,7 @@
 import { Options, Vue } from 'vue-class-component';
 import { defineAsyncComponent } from 'vue'
 import Spinner from "./components/Spinner.vue";
-const ProfilePicture = defineAsyncComponent({
-  loader: () => import('./components/ProfilePicture.vue'),
-  loadingComponent: Spinner
-})
+import ProfilePicture from "./components/ProfilePicture.vue";
 const ProfileContact = defineAsyncComponent({
   loader: () => import('./components/ProfileContact.vue'),
   loadingComponent: Spinner
