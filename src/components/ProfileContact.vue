@@ -1,6 +1,6 @@
 <template>
     <div>
-        <ListIcon v-for="item in data" :key="item.label" :icon="item.icon" :label="item.label" :showIcon="true" />
+        <ListIcon v-for="item in data" :key="item.label" :icon="item.icon" :label="item.label" :showIcon="true" :url="item.url" />
     </div>
 </template>
 

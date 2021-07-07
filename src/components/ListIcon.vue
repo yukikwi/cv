@@ -20,7 +20,7 @@
             </svg>
         </div>
         <span v-if="url === ''" class="label-text ml-3">{{ label }}</span>
-        <a v-else :href="url" class="label-text ml-3">{{ label }}</a>
+        <a v-else :href="url" class="label-text ml-3 font-bold">{{ label }}</a>
     </div>
 </template>
 

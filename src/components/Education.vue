@@ -12,7 +12,7 @@
                 {{ item.title }}
             </span>
             <br />
-            <span class="text-gray-700">
+            <span class="text-gray-700 md:text-sm">
                 {{ item.school }}
             </span>
         </div>

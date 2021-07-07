@@ -2,14 +2,16 @@
     <div>
         <div class="grid grid-rows-3 grid-cols-3 gap-5 mt-5">
             <div v-for="item in data" :key="item.label" class="row-span-1 col-span-1 glass">
-                <div class="glass-content">
-                    <div class="aspect-w-1 aspect-h-1">
-                        <div class="text-center flex flex-col justify-center">
-                            <img class="mx-auto w-1/4" :src="require('@/assets/img/'+item.icon)" />
-                            <span>{{item.label}}</span>
+                <a :href="item.url" target="_blank">
+                    <div class="glass-content">
+                        <div class="aspect-w-1 aspect-h-1">
+                            <div class="text-center flex flex-col justify-center">
+                                <img class="mx-auto w-1/4" :src="require('@/assets/img/'+item.icon)" />
+                                <span>{{item.label}}</span>
+                            </div>
                         </div>
                     </div>
-                </div>
+                </a>
             </div>
         </div>
     </div>

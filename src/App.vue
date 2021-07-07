@@ -9,7 +9,7 @@
           <div class="col-span-2 middle">
             <h1 class="text-xl md:text-4xl font-semibold">Pachara</h1>
             <h1 class="text-2xl md:text-6xl font-semibold">Chantawong</h1>
-            <h1 class="text-base md:text-xl mt-3">Web Developers</h1>
+            <h1 class="text-base md:text-xl mt-3">Web Developers 💻</h1>
           </div>
         </div>
       </div>
