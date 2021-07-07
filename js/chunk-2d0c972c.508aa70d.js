@@ -1,0 +1,2 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["chunk-2d0c972c"],{"58d7":function(a,e,t){"use strict";t.r(e);var i=t("7a23"),c=Object(i["f"])("p",{class:"mt-5"}," Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam saepe adipisci quam ea ab doloribus pariatur, laudantium consequatur alias architecto totam asperiores expedita aperiam atque quaerat sit maxime culpa natus? ",-1);function s(a,e){return Object(i["j"])(),Object(i["c"])("div",null,[c])}const u={};u.render=s;e["default"]=u}}]);
+//# sourceMappingURL=chunk-2d0c972c.508aa70d.js.map
