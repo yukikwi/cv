@@ -14,19 +14,23 @@ export default defineComponent({
             data: [
                 {
                     icon: 'phone',
-                    label: '063-446-1761'
+                    label: '063-446-1761',
+                    url: 'tel:0634461761'
                 },
                 {
                     icon: 'email',
-                    label: 'pachara2202@gmail.com'
+                    label: 'pachara2202@gmail.com',
+                    url: 'mailto:pachara2202@gmail.com'
                 },
                 {
                     icon: 'place',
-                    label: 'Chachoengsao - Thailand'
+                    label: 'Chachoengsao - Thailand',
+                    url: 'https://goo.gl/maps/yoprEsux359X2BEi6'
                 },
                 {
                     icon: 'facebook',
-                    label: 'Pachara Chantawong'
+                    label: 'Pachara Chantawong',
+                    url: 'https://www.facebook.com/pachara.chantawong/'
                 }
             ]
         }
@@ -37,8 +41,3 @@ export default defineComponent({
     }
 })
 </script>
-
-
-<style>
-
-</style>

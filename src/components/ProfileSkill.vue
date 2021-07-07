@@ -1,6 +1,5 @@
 <template>
     <div>
-        <h2 class="text-2xl font-semibold">Skill</h2>
         <div class="grid grid-rows-3 grid-cols-3 gap-5 mt-5">
             <div v-for="item in data" :key="item.label" class="row-span-1 col-span-1 glass">
                 <div class="glass-content">
@@ -76,10 +75,6 @@ export default defineComponent({
 
 
 <style scoped>
-h2{
-    border-bottom: #000 1px solid;
-}
-
 .glass:before{
     background-color: rgba(255, 255, 255, 0.3);
     content: '';
@@ -95,6 +90,11 @@ h2{
     border-color: rgba(0,0,0,0);
 }
 .glass:hover{
-  transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    transform: scale(1.1);
+}
+.glass span{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 </style>

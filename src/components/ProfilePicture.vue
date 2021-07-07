@@ -1,5 +1,5 @@
 <template>
-    <div class="w-5/6 mx-auto">
+    <div class="w-5/6 mx-auto py-3">
         <div class="aspect-w-1 aspect-h-1">
             <img class="rounded-full" src="@/assets/img/me.jpeg" />
         </div>
