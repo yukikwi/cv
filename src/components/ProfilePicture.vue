@@ -1,5 +1,5 @@
 <template>
-    <div class="w-5/6 md:w-3/6 mx-auto py-3">
+    <div class="w-5/6 md:w-3/6 xl:w-2/6 mx-auto py-3">
         <div class="aspect-w-1 aspect-h-1">
             <img v-show="isloaded" class="rounded-full img" src="@/assets/img/me.jpeg" @load="imgLoaded"/>
             <div class="rounded-full img flex">
