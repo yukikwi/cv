@@ -1,6 +1,6 @@
 <template>
     <div>
-        <div class="grid grid-rows-3 grid-cols-3 gap-5 mt-5">
+        <div class="grid grid-rows-3 grid-cols-3 lg:grid-cols-4 gap-5 mt-5">
             <div v-for="item in data" :key="item.label" class="row-span-1 col-span-1 glass">
                 <a :href="item.url" target="_blank">
                     <div class="glass-content">
@@ -51,7 +51,7 @@ export default defineComponent({
                 },
                 {
                     icon: 'python.png',
-                    label: 'python',
+                    label: 'Python',
                     url: 'https://www.python.org/'
                 },
                 {
@@ -61,13 +61,28 @@ export default defineComponent({
                 },
                 {
                     icon: 'ubuntu.png',
-                    label: 'Ubuntu Server',
+                    label: 'Ubuntu',
                     url: 'https://ubuntu.com/'
                 },
                 {
                     icon: 'tailwind.png',
                     label: 'Tailwind CSS',
                     url: 'https://tailwindcss.com/'
+                },
+                {
+                    icon: 'bootstrap.png',
+                    label: 'Bootstrap',
+                    url: 'https://getbootstrap.com/'
+                },
+                {
+                    icon: 'bulma.png',
+                    label: 'Bulma',
+                    url: 'https://bulma.io/'
+                },
+                {
+                    icon: 'antdv.png',
+                    label: 'Antdv',
+                    url: 'https://antdv.com'
                 }
             ]
         })
