@@ -25,6 +25,8 @@
 body{
     background: url('./assets/img/background.jpeg');
     background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .glass {
