@@ -31,6 +31,11 @@ export default defineComponent({
                     icon: 'facebook',
                     label: 'Pachara Chantawong',
                     url: 'https://www.facebook.com/pachara.chantawong/'
+                },
+                {
+                    icon: 'github',
+                    label: 'Pachara Chantawong (yukikwi)',
+                    url: 'https://github.com/yukikwi'
                 }
             ]
         }
