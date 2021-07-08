@@ -1,11 +1,9 @@
 <template>
     <div class="grid grid-flow-col grid-cols-8 grid-rows-none gap-4 my-5 text-lg" v-for="item in data" :key="item.date">
-        <div class="col-span-3 text-center">
-            <span class="text-gray-700 font-bold">
+        <div class="col-span-3 text-center text-gray-700 font-bold">
+            <span>
                 {{ item.date }}
-            </span>
-            <br />
-            <span class="text-gray-700">
+                <br />
                 {{ item.place }}
             </span>
         </div>
@@ -18,7 +16,7 @@
                 {{ item.job }}
             </span>
             <br />
-            <span class="font-bold">Missions or tasks realized</span>
+            <span class="font-bold md:text-sm">Missions or tasks realized</span>
             <br />
             <p class="text-gray-600 md:text-sm" v-for="task in item.tasks" :key="task">
                 {{ task }}
@@ -36,7 +34,7 @@ export default defineComponent({
             data: [
                 {
                     date: '2018-03-22',
-                    place: '(BKK - TH)',
+                    place: 'BKK - TH',
                     company: 'Novelrealm',
                     job: 'Web Developer',
                     tasks: [
