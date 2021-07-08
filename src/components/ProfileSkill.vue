@@ -6,7 +6,7 @@
                     <div class="glass-content">
                         <div class="aspect-w-1 aspect-h-1">
                             <div class="text-center flex flex-col justify-center">
-                                <img class="mx-auto w-1/4" :src="require('@/assets/img/'+item.icon)" />
+                                <img class="mx-auto w-1/4" v-lazy="{src: require(`@/assets/img/${item.icon}`) }" />
                                 <span>{{item.label}}</span>
                             </div>
                         </div>
