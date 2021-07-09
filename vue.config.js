@@ -7,5 +7,10 @@ module.exports = {
                 disable: process.env.NODE_ENV !== 'production',
             })
         ]
+    },
+    pluginOptions: {
+        webpackBundleAnalyzer: {
+            openAnalyzer: true
+        }
     }
 }
