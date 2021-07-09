@@ -17,8 +17,10 @@
         <div class="m-3">
           <h2 class="h2withline text-2xl font-semibold">Contact</h2>
           <ProfileContact />
-          <h2 class="h2withline text-2xl font-semibold mt-6">About Me</h2>
-          <ProfileAboutMe />
+          <!--
+            <h2 class="h2withline text-2xl font-semibold mt-6">About Me</h2>
+            <ProfileAboutMe />
+          -->
           <h2 class="h2withline text-2xl font-semibold mt-6">Skill</h2>
           <ProfileSkill />
           <h2 class="h2withline text-2xl font-semibold mt-6">References</h2>
