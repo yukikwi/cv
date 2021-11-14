@@ -1,6 +1,6 @@
 const ImageminPlugin = require('imagemin-webpack-plugin').default;
 module.exports = {
-    publicPath: process.env.NODE_ENV === 'production'? '/cv/' : '/',
+    publicPath: process.env.NODE_ENV === 'production'? '/resume/' : '/',
     configureWebpack: {
         plugins: [
             new ImageminPlugin({
