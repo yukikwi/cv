@@ -1,0 +1,12 @@
+.a4 {
+    @apply p-5;
+}
+
+.sec-l-bg{
+    background-color: #464646;
+    color: #fff;
+}
+
+.sec-r-bg{
+    background-color: #C4C4C4;
+}
